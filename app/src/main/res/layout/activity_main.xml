@@ -42,16 +42,18 @@
             android:onClick="giveA3points"/>
 
         <Button
-            android:text="+1 Points"
+            android:text="+2 Points"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="giveA2points"/>
 
         <Button
             android:text="Free Throw"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="giveA1points"/>
 
 
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.courtcounter.MainActivity">
 
-<LinearLayout
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -110,12 +110,12 @@
 
         <Button
             android:text="Reset"
-            android:layout_marginTop="20dp"
-            android:layout_marginHorizontal="100dp"
-            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:onClick="resetScores"/>
 
-</LinearLayout>
+</RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
